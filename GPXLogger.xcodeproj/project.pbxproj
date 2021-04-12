@@ -1,0 +1,585 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2502C65D26240F35001F2666 /* GPXLoggerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2502C65C26240F35001F2666 /* GPXLoggerApp.swift */; };
+		2502C65F26240F35001F2666 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2502C65E26240F35001F2666 /* ContentView.swift */; };
+		2502C66126240F36001F2666 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2502C66026240F36001F2666 /* Assets.xcassets */; };
+		2502C66426240F36001F2666 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2502C66326240F36001F2666 /* Preview Assets.xcassets */; };
+		2502C66F26240F36001F2666 /* GPXLoggerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2502C66E26240F36001F2666 /* GPXLoggerTests.swift */; };
+		2502C67A26240F36001F2666 /* GPXLoggerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2502C67926240F36001F2666 /* GPXLoggerUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2502C66B26240F36001F2666 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2502C65126240F35001F2666 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2502C65826240F35001F2666;
+			remoteInfo = GPXLogger;
+		};
+		2502C67626240F36001F2666 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2502C65126240F35001F2666 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2502C65826240F35001F2666;
+			remoteInfo = GPXLogger;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2502C65926240F35001F2666 /* GPXLogger.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GPXLogger.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2502C65C26240F35001F2666 /* GPXLoggerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GPXLoggerApp.swift; sourceTree = "<group>"; };
+		2502C65E26240F35001F2666 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		2502C66026240F36001F2666 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2502C66326240F36001F2666 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		2502C66526240F36001F2666 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2502C66A26240F36001F2666 /* GPXLoggerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GPXLoggerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2502C66E26240F36001F2666 /* GPXLoggerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GPXLoggerTests.swift; sourceTree = "<group>"; };
+		2502C67026240F36001F2666 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2502C67526240F36001F2666 /* GPXLoggerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GPXLoggerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2502C67926240F36001F2666 /* GPXLoggerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GPXLoggerUITests.swift; sourceTree = "<group>"; };
+		2502C67B26240F36001F2666 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2502C65626240F35001F2666 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2502C66726240F36001F2666 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2502C67226240F36001F2666 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2502C65026240F35001F2666 = {
+			isa = PBXGroup;
+			children = (
+				2502C65B26240F35001F2666 /* GPXLogger */,
+				2502C66D26240F36001F2666 /* GPXLoggerTests */,
+				2502C67826240F36001F2666 /* GPXLoggerUITests */,
+				2502C65A26240F35001F2666 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2502C65A26240F35001F2666 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2502C65926240F35001F2666 /* GPXLogger.app */,
+				2502C66A26240F36001F2666 /* GPXLoggerTests.xctest */,
+				2502C67526240F36001F2666 /* GPXLoggerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2502C65B26240F35001F2666 /* GPXLogger */ = {
+			isa = PBXGroup;
+			children = (
+				2502C65C26240F35001F2666 /* GPXLoggerApp.swift */,
+				2502C65E26240F35001F2666 /* ContentView.swift */,
+				2502C66026240F36001F2666 /* Assets.xcassets */,
+				2502C66526240F36001F2666 /* Info.plist */,
+				2502C66226240F36001F2666 /* Preview Content */,
+			);
+			path = GPXLogger;
+			sourceTree = "<group>";
+		};
+		2502C66226240F36001F2666 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				2502C66326240F36001F2666 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		2502C66D26240F36001F2666 /* GPXLoggerTests */ = {
+			isa = PBXGroup;
+			children = (
+				2502C66E26240F36001F2666 /* GPXLoggerTests.swift */,
+				2502C67026240F36001F2666 /* Info.plist */,
+			);
+			path = GPXLoggerTests;
+			sourceTree = "<group>";
+		};
+		2502C67826240F36001F2666 /* GPXLoggerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2502C67926240F36001F2666 /* GPXLoggerUITests.swift */,
+				2502C67B26240F36001F2666 /* Info.plist */,
+			);
+			path = GPXLoggerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2502C65826240F35001F2666 /* GPXLogger */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2502C67E26240F36001F2666 /* Build configuration list for PBXNativeTarget "GPXLogger" */;
+			buildPhases = (
+				2502C65526240F35001F2666 /* Sources */,
+				2502C65626240F35001F2666 /* Frameworks */,
+				2502C65726240F35001F2666 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GPXLogger;
+			productName = GPXLogger;
+			productReference = 2502C65926240F35001F2666 /* GPXLogger.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2502C66926240F36001F2666 /* GPXLoggerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2502C68126240F36001F2666 /* Build configuration list for PBXNativeTarget "GPXLoggerTests" */;
+			buildPhases = (
+				2502C66626240F36001F2666 /* Sources */,
+				2502C66726240F36001F2666 /* Frameworks */,
+				2502C66826240F36001F2666 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2502C66C26240F36001F2666 /* PBXTargetDependency */,
+			);
+			name = GPXLoggerTests;
+			productName = GPXLoggerTests;
+			productReference = 2502C66A26240F36001F2666 /* GPXLoggerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2502C67426240F36001F2666 /* GPXLoggerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2502C68426240F36001F2666 /* Build configuration list for PBXNativeTarget "GPXLoggerUITests" */;
+			buildPhases = (
+				2502C67126240F36001F2666 /* Sources */,
+				2502C67226240F36001F2666 /* Frameworks */,
+				2502C67326240F36001F2666 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2502C67726240F36001F2666 /* PBXTargetDependency */,
+			);
+			name = GPXLoggerUITests;
+			productName = GPXLoggerUITests;
+			productReference = 2502C67526240F36001F2666 /* GPXLoggerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2502C65126240F35001F2666 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					2502C65826240F35001F2666 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					2502C66926240F36001F2666 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 2502C65826240F35001F2666;
+					};
+					2502C67426240F36001F2666 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 2502C65826240F35001F2666;
+					};
+				};
+			};
+			buildConfigurationList = 2502C65426240F35001F2666 /* Build configuration list for PBXProject "GPXLogger" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2502C65026240F35001F2666;
+			productRefGroup = 2502C65A26240F35001F2666 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2502C65826240F35001F2666 /* GPXLogger */,
+				2502C66926240F36001F2666 /* GPXLoggerTests */,
+				2502C67426240F36001F2666 /* GPXLoggerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2502C65726240F35001F2666 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2502C66426240F36001F2666 /* Preview Assets.xcassets in Resources */,
+				2502C66126240F36001F2666 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2502C66826240F36001F2666 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2502C67326240F36001F2666 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2502C65526240F35001F2666 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2502C65F26240F35001F2666 /* ContentView.swift in Sources */,
+				2502C65D26240F35001F2666 /* GPXLoggerApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2502C66626240F36001F2666 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2502C66F26240F36001F2666 /* GPXLoggerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2502C67126240F36001F2666 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2502C67A26240F36001F2666 /* GPXLoggerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2502C66C26240F36001F2666 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2502C65826240F35001F2666 /* GPXLogger */;
+			targetProxy = 2502C66B26240F36001F2666 /* PBXContainerItemProxy */;
+		};
+		2502C67726240F36001F2666 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2502C65826240F35001F2666 /* GPXLogger */;
+			targetProxy = 2502C67626240F36001F2666 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2502C67C26240F36001F2666 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2502C67D26240F36001F2666 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2502C67F26240F36001F2666 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"GPXLogger/Preview Content\"";
+				DEVELOPMENT_TEAM = 8T4P9D4TB2;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = GPXLogger/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.shotastage.GPXLogger;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2502C68026240F36001F2666 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"GPXLogger/Preview Content\"";
+				DEVELOPMENT_TEAM = 8T4P9D4TB2;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = GPXLogger/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.shotastage.GPXLogger;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		2502C68226240F36001F2666 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8T4P9D4TB2;
+				INFOPLIST_FILE = GPXLoggerTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.shotastage.GPXLoggerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GPXLogger.app/GPXLogger";
+			};
+			name = Debug;
+		};
+		2502C68326240F36001F2666 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8T4P9D4TB2;
+				INFOPLIST_FILE = GPXLoggerTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.shotastage.GPXLoggerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GPXLogger.app/GPXLogger";
+			};
+			name = Release;
+		};
+		2502C68526240F36001F2666 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8T4P9D4TB2;
+				INFOPLIST_FILE = GPXLoggerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.shotastage.GPXLoggerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GPXLogger;
+			};
+			name = Debug;
+		};
+		2502C68626240F36001F2666 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8T4P9D4TB2;
+				INFOPLIST_FILE = GPXLoggerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.shotastage.GPXLoggerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GPXLogger;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2502C65426240F35001F2666 /* Build configuration list for PBXProject "GPXLogger" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2502C67C26240F36001F2666 /* Debug */,
+				2502C67D26240F36001F2666 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2502C67E26240F36001F2666 /* Build configuration list for PBXNativeTarget "GPXLogger" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2502C67F26240F36001F2666 /* Debug */,
+				2502C68026240F36001F2666 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2502C68126240F36001F2666 /* Build configuration list for PBXNativeTarget "GPXLoggerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2502C68226240F36001F2666 /* Debug */,
+				2502C68326240F36001F2666 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2502C68426240F36001F2666 /* Build configuration list for PBXNativeTarget "GPXLoggerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2502C68526240F36001F2666 /* Debug */,
+				2502C68626240F36001F2666 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2502C65126240F35001F2666 /* Project object */;
+}
